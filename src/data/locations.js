@@ -1,0 +1,143 @@
+// Sample fingerprinting locations in Korea
+export const locations = [
+  {
+    id: 1,
+    name: "Seoul Central Police Station",
+    city: "Seoul",
+    district: "Jung-gu",
+    address: "123 Sejong-daero, Jung-gu, Seoul",
+    locationType: "Police station",
+    purposes: ["FBI background check", "Immigration", "Apostille"],
+    appointmentRequired: false,
+    hours: "Mon-Fri: 9:00 AM - 6:00 PM",
+    phone: "02-1234-5678",
+    notes: "Most popular location. English-speaking staff available. Usually busy, arrive early.",
+    rating: 4.5,
+    waitTime: "30-60 minutes"
+  },
+  {
+    id: 2,
+    name: "Gangnam Police Station",
+    city: "Seoul",
+    district: "Gangnam-gu",
+    address: "456 Teheran-ro, Gangnam-gu, Seoul",
+    locationType: "Police station",
+    purposes: ["FBI background check", "Immigration"],
+    appointmentRequired: false,
+    hours: "Mon-Fri: 9:00 AM - 5:00 PM",
+    phone: "02-2345-6789",
+    notes: "Modern facility. Limited English support. Less crowded than central station.",
+    rating: 4.2,
+    waitTime: "20-40 minutes"
+  },
+  {
+    id: 3,
+    name: "Busan Central Police Station",
+    city: "Busan",
+    district: "Jung-gu",
+    address: "789 Jungang-daero, Jung-gu, Busan",
+    locationType: "Police station",
+    purposes: ["FBI background check", "Immigration", "Apostille"],
+    appointmentRequired: false,
+    hours: "Mon-Fri: 9:00 AM - 6:00 PM",
+    phone: "051-1234-5678",
+    notes: "Good for southern regions. English support available on request.",
+    rating: 4.3,
+    waitTime: "15-30 minutes"
+  },
+  {
+    id: 4,
+    name: "Incheon Immigration Office",
+    city: "Incheon",
+    district: "Jung-gu",
+    address: "321 Sinpo-dong, Jung-gu, Incheon",
+    locationType: "Police station",
+    purposes: ["Immigration", "Apostille"],
+    appointmentRequired: true,
+    hours: "Mon-Fri: 9:00 AM - 5:00 PM",
+    phone: "032-1234-5678",
+    notes: "Specializes in visa services. Near Incheon Airport. Appointment recommended.",
+    rating: 4.0,
+    waitTime: "By appointment"
+  },
+  {
+    id: 5,
+    name: "Daegu Central Police Station",
+    city: "Daegu",
+    district: "Jung-gu",
+    address: "654 Gukchaebosang-ro, Jung-gu, Daegu",
+    locationType: "Police station",
+    purposes: ["FBI background check", "Immigration"],
+    appointmentRequired: false,
+    hours: "Mon-Fri: 9:00 AM - 5:00 PM",
+    phone: "053-1234-5678",
+    notes: "Convenient for central Korea. Limited English. Bring a Korean speaker if possible.",
+    rating: 3.8,
+    waitTime: "20-45 minutes"
+  },
+  {
+    id: 6,
+    name: "Gwangju Police Station",
+    city: "Gwangju",
+    district: "Buk-gu",
+    address: "987 Sangmu-daero, Buk-gu, Gwangju",
+    locationType: "Police station",
+    purposes: ["FBI background check"],
+    appointmentRequired: false,
+    hours: "Mon-Fri: 9:00 AM - 5:00 PM",
+    phone: "062-1234-5678",
+    notes: "Smaller facility. Best to call ahead. English support limited.",
+    rating: 3.5,
+    waitTime: "30-60 minutes"
+  },
+  {
+    id: 7,
+    name: "Korea Fingerprinting Services",
+    city: "Seoul",
+    district: "Gangnam-gu",
+    address: "789 Gangnam-daero, Gangnam-gu, Seoul",
+    locationType: "Private agency",
+    purposes: ["FBI background check", "Apostille"],
+    appointmentRequired: true,
+    hours: "Mon-Fri: 10:00 AM - 7:00 PM, Sat: 10:00 AM - 2:00 PM",
+    phone: "02-3456-7890",
+    notes: "Private agency with English support. Faster processing. Appointment required.",
+    rating: 4.7,
+    waitTime: "By appointment"
+  },
+  {
+    id: 8,
+    name: "US Embassy Seoul",
+    city: "Seoul",
+    district: "Jongno-gu",
+    address: "188 Sejong-daero, Jongno-gu, Seoul",
+    locationType: "Embassy / consulate",
+    purposes: ["FBI background check", "Immigration"],
+    appointmentRequired: true,
+    hours: "Mon-Fri: 8:30 AM - 5:00 PM",
+    phone: "02-397-4114",
+    notes: "US Embassy services. Appointment required. US citizens only.",
+    rating: 4.6,
+    waitTime: "By appointment"
+  },
+  {
+    id: 9,
+    name: "Busan Private Fingerprinting",
+    city: "Busan",
+    district: "Haeundae-gu",
+    address: "456 Haeundae Beach Road, Haeundae-gu, Busan",
+    locationType: "Private agency",
+    purposes: ["FBI background check"],
+    appointmentRequired: false,
+    hours: "Mon-Fri: 9:00 AM - 6:00 PM",
+    phone: "051-2345-6789",
+    notes: "Private agency in Busan. Walk-ins welcome. English support available.",
+    rating: 4.4,
+    waitTime: "15-30 minutes"
+  }
+];
+
+export const cities = ["All", "Seoul", "Busan", "Incheon", "Daegu", "Gwangju"];
+export const locationTypes = ["All", "Police station", "Private agency", "Embassy / consulate"];
+export const purposes = ["FBI background check", "Immigration", "Apostille"];
+
